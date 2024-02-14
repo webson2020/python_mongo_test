@@ -1,0 +1,15 @@
+# Ignorar archivos temporales y de desarrollo
+
+*.pyc binary
+__pycache__/ export-ignore
+.venv/ export-ignore
+
+# Excluir archivos de configuración específicos
+
+.env export-ignore
+.db export-ignore
+api_key.txt export-ignore
+
+# Especificar formato de codificación
+
+*.py text eol=lf
